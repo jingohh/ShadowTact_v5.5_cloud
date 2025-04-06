@@ -3,3 +3,4 @@ python-binance
 scipy 
 numpy
 pandas
+flask>=2.0.0
