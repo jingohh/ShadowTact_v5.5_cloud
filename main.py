@@ -51,6 +51,6 @@ def main():
         write_log("準備下車", symbol, latest_candle)
 
 if __name__ == "__main__":
-    while True:
-        main()
-        time.sleep(60) 
+    import os
+    port = int(os.environ.get("PORT", 10000))
+    app.run(host='0.0.0.0', port=port)
