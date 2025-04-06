@@ -1,7 +1,7 @@
 # config/config.py
 
 # Telegram Bot Token（如果要更換，直接改這裡）
-TELEGRAM_TOKEN = 'YOUR_TELEGRAM_BOT_TOKEN'
+TELEGRAM_TOKEN = '7479198697:AAHwy8OG8OZzcZjzyI6eRdP3YaCYcNVYR-I'
 
 # Telegram 貼圖 ID（請使用你自己擷取的貼圖 file_id）
 STICKERS = {
