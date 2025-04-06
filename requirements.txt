@@ -1,3 +1,5 @@
 requests
 python-binance
-tactics
+scipy 
+numpy
+pandas
