@@ -1,7 +1,7 @@
 # bot/telegram_bot.py
 
 import requests
-from config.config import TELEGRAM_TOKEN, STICKERS, SIGNATURE, ENABLE_IMAGE_MODE, ENABLE_TEXT_MODE
+from config import TELEGRAM_TOKEN, STICKERS, SIGNATURE, ENABLE_IMAGE_MODE, ENABLE_TEXT_MODE
 
 def send_sticker(chat_id, tag):
     if not ENABLE_IMAGE_MODE:
