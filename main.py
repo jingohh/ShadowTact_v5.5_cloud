@@ -51,4 +51,6 @@ def main():
         write_log("準備下車", symbol, latest_candle)
 
 if __name__ == "__main__":
-    main()
+    while True:
+        main()
+        time.sleep(60) 
