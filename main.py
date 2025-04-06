@@ -1,5 +1,6 @@
 # main.py
 
+from flask import Flask
 from tactics import *
 from image_trigger import can_trigger
 from bot.telegram_bot import notify
