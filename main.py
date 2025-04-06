@@ -7,6 +7,8 @@ from log.log_tool import write_log
 from config import DEFAULT_SYMBOL
 import time
 
+app = Flask(__name__)
+
 # 模擬三根K棒資料（實戰中請改為API取得）
 def get_latest_candles():
     return [
