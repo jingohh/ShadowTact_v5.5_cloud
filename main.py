@@ -1,6 +1,5 @@
 # main.py
 
-from flask import Flask
 from tactics import *
 from image_trigger import can_trigger
 from bot.telegram_bot import notify
@@ -8,7 +7,6 @@ from log.log_tool import write_log
 from config import DEFAULT_SYMBOL
 import time
 
-app = Flask(__name__)
 
 # 模擬三根K棒資料（實戰中請改為API取得）
 def get_latest_candles():
@@ -54,6 +52,5 @@ def main():
         write_log("準備下車", symbol, latest_candle)
 
 if __name__ == "__main__":
-    import os
-    port = int(os.environ.get("PORT", 10000))
-    app.run(host='0.0.0.0', port=port)
+    main()
+    time.sleep(10) 
