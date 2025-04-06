@@ -1,7 +1,7 @@
 # trigger/image_trigger.py
 
 import time
-from config.config import COOLDOWN_SECONDS
+from config import COOLDOWN_SECONDS
 
 # 單圖冷卻紀錄（每個貼圖各自冷卻）
 last_trigger_time = {
