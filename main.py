@@ -1,6 +1,6 @@
 # main.py
 
-from tactics.tactics import *
+from tactics import *
 from trigger.image_trigger import can_trigger
 from bot.telegram_bot import notify
 from log.log_tool import write_log
