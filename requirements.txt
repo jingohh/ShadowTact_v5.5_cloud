@@ -3,4 +3,3 @@ python-binance
 scipy 
 numpy
 pandas
-tactics
