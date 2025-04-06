@@ -1,10 +1,10 @@
 # main.py
 
 from tactics import *
-from trigger.image_trigger import can_trigger
+from image_trigger import can_trigger
 from bot.telegram_bot import notify
 from log.log_tool import write_log
-from config.config import DEFAULT_SYMBOL
+from config import DEFAULT_SYMBOL
 import time
 
 # 模擬三根K棒資料（實戰中請改為API取得）
