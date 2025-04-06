@@ -16,7 +16,7 @@ COOLDOWN_SECONDS = 600  # 每張圖至少 10 分鐘內不會重複出現
 
 # 幣種與週期設定（後續可支援多幣多週期）
 DEFAULT_SYMBOL = "TRX/USDT"
-DEFAULT_INTERVAL = "3m"
+DEFAULT_INTERVAL = "5"
 
 # 模式控制
 ENABLE_IMAGE_MODE = True      # 是否啟用貼圖
