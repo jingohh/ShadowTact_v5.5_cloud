@@ -25,7 +25,7 @@ def get_latest_candles():
     ]
 
 # 請替換為實際的 Telegram chat_id
-CHAT_ID = 'YOUR_CHAT_ID'
+CHAT_ID = '7544265351'
 
 def main():
     candles = get_latest_candles()
